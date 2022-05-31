@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/*Header*/
+
+.header {
+    height: 110px;
+    background: #1e1e1e;
+}
+
+.ul_header {
+    margin: 0 auto;
+    padding: 7px 0;
+    width: 1170px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotype {
+    height: 96px;
+    width: 129px;
+}
+
+.name {
+    width: 122px;
+}
+
+.name_of_city {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.tel {
+    width: 143px;
+}
+
+.links {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.explore {
+    width: 354px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    display: flex;
+    background: #474747;
+    height: 34px; 
+}
+
+.search {
+    border: none;
+    background-color: #474747;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #989898;
+    width: 34px;
+    border-left: 1px solid gray;
+}
+
+.search::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #989898;
+    padding-left: 10px;
+}
+
+.reg {
+    width: 185px;
+    text-align: right;
+}
+
+.links-2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #E4E4E4;
+}
+
+.icon_of_cart {
+    width: 35px;
+    height: 31px;    
+}
+
+/*Banner*/
+
+.banner {
+    background: url(/Pictures/banner/banner01.png);
+}
+
+.text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    padding: 80px 0;
+}    
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.sub_title {
+    font-style: normal;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.sub_title ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Main*/
+
+.main {
+    height: 2150px;
+    background-color: #f6f6f6;
+}
+
+/*Categories*/
+
+.categories {
+    padding: 30px;
+}
+
+.choiсe {
+    width: 1170px;
+    height: 276px;
+    background-color: #ffffff;
+    border: 2px solid #E5E5E5;
+    margin: 0 auto;
+}
+
+.name_enumiration {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 5px 0;
+}
+
+.enumiration {
+    position: absolute;
+    width: 350px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    
+}
+
+.name_choice {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.big_choice {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 1050px;
+}
+
+.enum {
+    padding: 30px;
+}
+
+.checked {
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.check {
+    appearance: none;
+    position: absolute;
+}
+
+.pic {
+    width: 20px;
+    height: 20px;
+    background: #F6F6F6;
+    border: 1px solid #D3D3D3;
+    margin-right: 10px;
+}
+
+.stock {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.check:checked + .pic .stock {
+    display: block;
+    
+}
+
+.check:checked + .pic {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/*Pictures of motors*/
+
+.pic_of_motors {
+    height: 1770px;
+}
+
+.motors {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.motor_card {
+    border: 1px solid #E6E6E6;
+    background: white;
+    width: 370px;
+    height: 420px;
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.motor_card img {
+    height: 191px;
+    width: 308px;
+}
+
+.motor_card:first-child {
+    margin: 0;
+}
+
+.motor_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 166.34%;
+    padding: 10px 0;
+    height: 80px;
+}
+
+.price_and_btn {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.price_and_btn a {
+    background: #2156BD;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    width: 160px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/*Footer*/
+
+.footer {
+    height: 130px;
+    background: #1e1e1e;
+}
+
+.icons {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.social_icons {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.txt {
+    padding: 0 15px;
+}
+
+.txt span {
+    color: #9A9A9A;
+}
